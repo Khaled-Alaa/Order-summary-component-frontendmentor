@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+.page {
+  padding-top: 8rem;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  font-family: "Trebuchet MS";
+  background-color: #e0e8ff;
+  background-size: contain;
+  height: 100%;
+  /* position: relative; */
+}
+.card-container {
+  width: 400px;
+  border-radius: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  padding-bottom: 1rem;
+}
+.image {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+h5 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: #b1b4c0;
+}
+.plan-container {
+  background-color: #eff0f5;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.plan-price{
+  display: flex;
+
+}
