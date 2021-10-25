@@ -6,14 +6,13 @@ body {
   height: 100%;
 }
 .page {
-  padding-top: 8rem;
+  padding-top: 4rem;
   background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
-  font-family: "Trebuchet MS";
+  font-family: system-ui;
   background-color: #e0e8ff;
   background-size: contain;
   height: 100%;
-  /* position: relative; */
 }
 .card-container {
   width: 400px;
@@ -21,25 +20,82 @@ body {
   margin: 0 auto;
   text-align: center;
   background-color: #ffffff;
-  padding-bottom: 1rem;
+  box-shadow: 0px 20px 20px 0px #d1ddff;
 }
 .image {
   width: 100%;
   border-radius: 1rem 1rem 0 0;
 }
+.card-data-container {
+  padding: 2rem 3rem 3rem 3rem;
+}
+h2 {
+  margin: 0;
+}
 h5 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-  color: #b1b4c0;
+  font-weight: unset;
+  font-size: 0.9rem;
 }
 .plan-container {
-  background-color: #eff0f5;
+  background-color: #f8f9fe;
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
 }
-.plan-price{
+.plan-container > div {
   display: flex;
+  align-items: center;
+}
+.plan-image {
+  margin-right: 1rem;
+}
+.plan-title {
+  font-weight: bold;
+}
+.gray {
+  color: #7e83a5;
+}
+.plan-container > a {
+  font-size: 11px;
+  font-weight: bold;
+  color: #3b30b4;
+  font-family: system-ui;
+}
 
+.plan-container > a:hover {
+  color: #7c73cd;
+  text-decoration: none;
+}
+.agree-payment {
+  color: white;
+  background-color: #382ae1;
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.5rem;
+  margin: 2rem 0;
+  box-shadow: 0px 20px 20px 0px #dcd9f7;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.agree-payment:hover {
+  background-color: #766cf1;
+}
+
+.cancel-order {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.cancel-order:hover {
+  color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

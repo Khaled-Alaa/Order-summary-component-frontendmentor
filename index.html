@@ -13,17 +13,6 @@
     />
 
     <title>Frontend Mentor | Order summary card</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
@@ -34,32 +23,40 @@
           alt="Girl in a jacket"
           class="image"
         />
-        <h2>Order Summary</h2>
-        <h5>
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </h5>
-        <div class="plan-container">
-          <img
-            src="D:\Frontend Mentor\order-summary-component-main\images\icon-music.svg"
-            alt="icon music"
-            class="plan-image"
-          />
-          <div>
-            <div>Annual Plan</div>
-            <div>$59.99/year</div>
-          </div>
-          <a href="#">Change</a>
-        </div>
-        <div>Proceed to Payment</div>
-        <div>Cancel Order</div>
+        <div class="card-data-container">
+          <h2>Order Summary</h2>
+          <h5 class="gray">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </h5>
 
-        <div class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="#">Your Name Here</a>.
+          <div class="plan-container">
+            <div>
+              <img
+                src="D:\Frontend Mentor\order-summary-component-main\images\icon-music.svg"
+                alt="icon music"
+                class="plan-image"
+              />
+              <div>
+                <div class="plan-title">Annual Plan</div>
+                <div class="gray">$59.99/year</div>
+              </div>
+            </div>
+            <a href="#">Change</a>
+          </div>
+
+          <div class="agree-payment">Proceed to Payment</div>
+          <div class="cancel-order gray">Cancel Order</div>
         </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/Khaled-Alaa"
+          >Khaled Alaa</a
+        >.
       </div>
     </div>
   </body>
