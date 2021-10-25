@@ -16,19 +16,19 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <div class="page">
-      <div class="card-container">
+    <main role="main" class="page">
+      <section class="card-container">
         <img
           src="./images/illustration-hero.svg"
           alt="Girl in a jacket"
           class="image"
         />
-        <div class="card-data-container">
+        <article class="card-data-container">
           <h2>Order Summary</h2>
-          <h5 class="gray">
+          <div class="order-description gray">
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
-          </h5>
+          </div>
 
           <div class="plan-container">
             <div>
@@ -47,17 +47,20 @@
 
           <div class="agree-payment">Proceed to Payment</div>
           <div class="cancel-order gray">Cancel Order</div>
+        </article>
+      </section>
+
+      <footer role="contentinfo">
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://www.frontendmentor.io/profile/Khaled-Alaa"
+            >Khaled Alaa</a
+          >.
         </div>
-      </div>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://www.frontendmentor.io/profile/Khaled-Alaa"
-          >Khaled Alaa</a
-        >.
-      </div>
-    </div>
+      </footer>
+    </main>
   </body>
 </html>
